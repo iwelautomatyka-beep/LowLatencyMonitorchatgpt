@@ -1,1 +1,0 @@
-C:\Users\Janek\Desktop\LowLatencyMonitor_v2_stable\LowLatencyMonitor\app\build\intermediates\cxx\Debug\6o416i1v\obj\arm64-v8a

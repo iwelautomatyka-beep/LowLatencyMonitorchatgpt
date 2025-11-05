@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
+    <!-- GŁÓWNY STATUS (szeroki, ale nie pod sam prawy brzeg, bo będzie chip + LED) -->
     <TextView
         android:id="@+id/tvStatus"
         android:layout_width="0dp"
@@ -29,6 +30,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add Delay"
+        android:visibility="gone"
+        android:enabled="false"
         app:layout_constraintTop_toBottomOf="@id/tvStatus"
         app:layout_constraintStart_toEndOf="@id/btnToggle"
         android:layout_marginStart="16dp"
