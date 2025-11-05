@@ -1,0 +1,104 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/oboe-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.oboe-build-Debug-e64c92c80894002e16ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/Janek/Desktop/LowLatencyMonitor_v2_stable/LowLatencyMonitor/app/.cxx/Debug/6o416i1v/arm64-v8a/_deps/oboe-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "audioengine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "oboe",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "audioengine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audioengine-Debug-4c5ac9bad989ae775098.json",
+					"name" : "audioengine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "oboe::@34d0455163043826f65a",
+					"jsonFile" : "target-oboe-Debug-2cb2c3bae320d91dbb6c.json",
+					"name" : "oboe",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Janek/Desktop/LowLatencyMonitor_v2_stable/LowLatencyMonitor/app/.cxx/Debug/6o416i1v/arm64-v8a",
+		"source" : "C:/Users/Janek/Desktop/LowLatencyMonitor_v2_stable/LowLatencyMonitor/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
